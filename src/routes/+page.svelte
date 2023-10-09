@@ -1,2 +1,14 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+  export let data;
+  const entries = data.props.newsletterEntry;
+</script>
+
+<h1>IKA Imóveis</h1>
+
+<div>
+  <ul>
+    {#each entries as entry}
+      <li>{entry.email}</li>
+    {/each}
+  </ul>
+</div>
