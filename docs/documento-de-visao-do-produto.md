@@ -4,6 +4,7 @@
 | Data | Versão | Descrição | Autor |
 | ---- | ---- | ---- | ---- |
 | 21/09/2023 | 0.0.1 | Primeira fase de documentação do projeto | Pedro Daia |
+| 09/10/2023 | 0.0.2 | Definição da primeira sprint de implementação de feature | Pedro Daia |
 
 
 ## 1. Visão geral do PRODUTO
@@ -23,7 +24,7 @@ O sistema IKA é um produto voltado aos profissionais corretores de imóveis, as
 O sistema IKA visa auxiliar o corretor de imóveis a cadastrar seus clientes e acompanhar os imóveis tanto para aluguel/venda, quanto seus estados, isto é, permitir também o acompanhamento de imóveis JÁ vendidos ou alugados, em relação a status de pagamento e etc.
 
 #### 1.3 Tecnologias
-O sistema é um projeto full-stack com Next.js, e PlanetScale como banco de dados.
+O sistema é um projeto Sveltekit, framework fullstack para Svelte.js, semelhante a frameworks fullstack javascript como Next.js para o React.js
 
 ## 2. Visão geral do PROJETO
 #### 2.1 Organização
@@ -39,6 +40,7 @@ O sistema é um projeto full-stack com Next.js, e PlanetScale como banco de dado
 | ---- | ---- | ---- | ---- |
 | 1 | Definição do Produto | 18/09/2023 | 24/09/2023 |
 | 2 | Elicitação inicial de requisitos e backlog | 25/09/2023 | 1/10/2023 |
+| 3 | Implementação das user stories dos módulos AUTH e CLIENTES | 09/10/2023 | 15/10/2023 |
 #### 2.3 Matriz de Comunicação
 | Descrição | Área/Envolvidos | Periodicidade | Produtos Gerados |
 | ---- | ---- | ---- | ---- |
